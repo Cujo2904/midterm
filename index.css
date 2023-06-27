@@ -1,0 +1,154 @@
+body
+{
+	background-color: gray;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
+	margin: 0;
+	overflow-x: hidden;
+}
+.main ul
+{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: gray;
+}
+.main li 
+{
+	float: left;
+	font-size: 50px;
+}
+.logo
+{
+	height: 0px;
+	width: 150px;
+}
+.sign
+{
+	padding:15px 17px;
+	padding-top: 30px;
+}
+.main li a, .dropbtn
+{
+	display: inline-block;
+	text-decoration: none;
+	color:  white;
+	font-size: 15pt;
+	padding: 14px 25px;
+	border-radius: 25pt;
+	padding-top: 28px;
+}
+li a.hov:hover
+{
+	background-color: blue;
+	color: white;
+	font-size:15pt;
+	font-weight:bold;
+	padding:13px 16px;
+}
+.hob:hover
+{
+	background-color: black;
+	font-size:15pt;
+	font-weight:bold;
+	padding:15px 17px;
+}
+.main li.dropdown 
+{
+  display: inline-block;
+}
+.main .dropdown-content 
+{
+  display: none;
+  position: absolute;
+  background-color: white;
+  min-width: 150px;
+  border-radius: 20pt;
+}
+.main .dropdown-content a 
+{
+  color: blue;
+  padding: 10px 15px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+.main .dropdown:hover .dropdown-content 
+{
+  display: block;
+}
+h1
+{
+		color: white;
+		text-align: center;
+		font-size: 55px;
+		float: left;
+		margin-left: 490px;
+		
+}
+p.abt
+{
+	width: 1000px;
+	font-size: 20px;
+	border: 5px double white;
+	padding: 50px 50px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	border-radius: 50pt;
+}
+.con
+{
+	width: 1000px;
+	font-size: 20px;
+	border: 5px double white;
+	padding: 50px 50px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	border-radius: 50pt;
+}
+.soc
+{
+    padding: 50px 50px;
+}
+.section1 .content1
+{
+	float: left;
+	width: 100%;
+	margin-top: 60px;
+	padding: 10px 50px;
+}
+.section1 .content1 .card
+{
+	width: 20%;
+	float: left;
+	padding: 0px 10px; 
+	margin-right: 28px;
+}
+.section1 .content1 .card .box
+{
+	font-size: 18px;
+	padding: 20px 10px;
+	text-align: center;
+	
+}
+button
+{
+	color: black;
+	background-color: white;
+	padding: 10px 5px;
+	text-align: center;
+	font-size: 14px;
+	width: 93px;
+	
+}
+button:hover
+{
+	background-color: blue;
+	color: white;
+
+}
